@@ -92,7 +92,7 @@ button[hidden] { display: none !important; }
 .theme-steps { display: flex; align-items: center; gap: 2px; height: 5px; pointer-events: none; }
 .theme-steps i { width: 4px; height: 4px; border: 1px solid var(--muted); border-radius: 50%; }
 [data-theme="day"] .theme-steps i:nth-child(1), [data-theme="sunset"] .theme-steps i:nth-child(2), [data-theme="forest"] .theme-steps i:nth-child(3), [data-theme="rain"] .theme-steps i:nth-child(4), [data-theme="night"] .theme-steps i:nth-child(5) { width: 7px; border-radius: 3px; border-color: var(--theme-icon); background: var(--theme-icon); }
-.hero { padding: clamp(6rem, 16vh, 12rem) 0 4rem; }
+.hero { padding: clamp(4.5rem, 11vh, 8rem) 0 4rem; }
 .eyebrow, .section-label, .project-index { text-transform: uppercase; font-size: .75rem; letter-spacing: .12em; font-weight: 650; }
 .eyebrow { color: var(--muted); margin: 0 0 2rem; }
 .hero-title { margin: 0 0 3.5rem -.055em; font-size: clamp(4.2rem, 11vw, 9.75rem); font-weight: 540; line-height: .96; letter-spacing: -.085em; text-wrap: balance; }
@@ -148,6 +148,7 @@ button[hidden] { display: none !important; }
 .education-row > span { color: var(--muted); font-variant-numeric: tabular-nums; }
 .cert-row { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 2rem; margin-top: 1.5rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
 .cert-row p { color: var(--ink); margin: 0; }
+.cert-list { display: grid; gap: .45rem; }
 .contact-section { border-top: 1px solid var(--line); padding: 7rem 0 6rem; }
 .contact-section h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(4rem, 10vw, 9rem); line-height: .97; font-weight: 400; letter-spacing: -.075em; margin: 0 0 3rem; }
 .contact-bottom { display: flex; justify-content: space-between; align-items: end; gap: 2rem; border-top: 1px solid var(--line); padding-top: 1.2rem; }
@@ -173,7 +174,7 @@ button[hidden] { display: none !important; }
   .wordmark { font-size: 1.65rem; }
   .main-nav { order: 3; width: 100%; overflow-x: auto; gap: 1.35rem; padding: .25rem 0; }
   .main-nav a { font-size: .88rem; white-space: nowrap; }
-  .hero { padding: 17vh 0 3rem; }
+  .hero { padding: clamp(5rem, 12vh, 7rem) 0 3rem; }
   .hero-title { font-size: clamp(4rem, 17vw, 7rem); margin-bottom: 2.3rem; }
   .hero-links { gap: 1.5rem; }
   .hero-rule { margin-top: 2.5rem; }
