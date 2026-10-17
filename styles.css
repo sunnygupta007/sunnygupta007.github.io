@@ -95,7 +95,7 @@ button[hidden] { display: none !important; }
 .hero { padding: clamp(6rem, 16vh, 12rem) 0 4rem; }
 .eyebrow, .section-label, .project-index { text-transform: uppercase; font-size: .75rem; letter-spacing: .12em; font-weight: 650; }
 .eyebrow { color: var(--muted); margin: 0 0 2rem; }
-.hero-title { margin: 0 0 3.5rem -.055em; font-size: clamp(4.2rem, 12vw, 10.6rem); font-weight: 540; line-height: .96; letter-spacing: -.085em; text-wrap: balance; }
+.hero-title { margin: 0 0 3.5rem -.055em; font-size: clamp(4.2rem, 11vw, 9.75rem); font-weight: 540; line-height: .96; letter-spacing: -.085em; text-wrap: balance; }
 .hero-title span { color: var(--muted); }
 .hero-bottom { display: flex; align-items: end; justify-content: space-between; gap: 3rem; }
 .hero-summary { max-width: 38rem; font-size: clamp(1.1rem, 2vw, 1.35rem); line-height: 1.6; margin: 0; }
@@ -131,12 +131,15 @@ button[hidden] { display: none !important; }
 .project-card:hover { padding-left: .4rem; }
 .project-index { color: var(--muted); padding-top: .3rem; font-size: .68rem; letter-spacing: .08em; }
 .project-main h3 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.5rem, 2.5vw, 2rem); font-weight: 400; line-height: 1.2; letter-spacing: -.035em; margin: 0 0 .65rem; }
+.project-main h3 a { text-decoration: none; border-bottom: 1px solid transparent; transition: color .18s ease, border-color .18s ease; }
+.project-main h3 a:hover { color: var(--accent); border-color: currentColor; }
+.project-main h3 a:focus-visible { border-color: currentColor; }
 .project-main p { margin: 0; max-width: 48rem; line-height: 1.7; }
 .tags { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1rem; }
 .tags span { border: 1px solid var(--line); border-radius: 3px; color: var(--muted); padding: .18rem .5rem; font-size: .75rem; }
 .project-arrow { text-decoration: none; font-size: 1.35rem; transition: transform .18s ease; }
 .project-arrow:hover { transform: translate(2px, -2px); }
-.project-footnote { color: var(--muted); margin-top: 1.2rem; }
+.project-status { display: block; margin-top: 1rem; color: var(--muted); font-size: .72rem; letter-spacing: .06em; line-height: 1.35; text-transform: uppercase; }
 .skill-groups { border-top: 1px solid var(--line); }
 .skill-group { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 2rem; padding: 1.35rem 0; border-bottom: 1px solid var(--line); }
 .skill-group h3 { margin: 0; font-size: .95rem; font-weight: 650; }
